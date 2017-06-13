@@ -1,0 +1,1360 @@
+#divBody{
+    width: 99%;
+    text-align: center;
+}
+
+body{
+    font-family: Microsoft JhengHei;
+    
+}
+
+#divLoading {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" data-skrollr-stylesheet />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon.png" />
+</head>
+<body>
+
+<div id="PlaygroundBackground" data-6700="opacity: 0;" data-7300="opacity: 1;" data-12600="opacity: 1;" data-12900="opacity: 0;">
+    <div id="PlaygroundSky" data-10000="-webkit-filter: sepia(0%);" data-10300="-webkit-filter: sepia(60%);"></div>
+    
+    <div id="Cloud" 
+    data-6700="opacity: 0; margin-left: -700px;" 
+    data-7000="opacity: 1; margin-left: -750px;"
+    data-10000="-webkit-filter: sepia(0%); margin-left: -800px;"
+    data-10300="-webkit-filter: sepia(60%); margin-top: -350px;"
+    data-10600="margin-top: -400px;"></div>
+    
+    <div id="Enclosure" data-6700="margin-top: 1130px;"
+    data-7000="margin-top: -70px;"
+    data-10000="-webkit-filter: sepia(0%);"
+    data-10300="-webkit-filter: sepia(60%); margin-top: -70px;"
+    data-10600="margin-top: -120px;"></div>
+    
+    <div id="PlaygroundTree" 
+    data-6700="margin-top: 1000px;" data-7000="margin-top: -200px;"
+    data-10000="-webkit-filter: sepia(0%);"
+    data-10300="-webkit-filter: sepia(60%); margin-top: -200px;"
+    data-10600="margin-top: -250px;"></div>
+    
+    <div id="Stage"
+    data-7000="margin-top: -700px;"
+    data-7300="margin-top: -180px;" 
+    data-10000="-webkit-filter: sepia(0%);"
+    data-10300="-webkit-filter: sepia(60%); margin-top: -180px;"
+    data-10600="margin-top: -230px;"></div>
+    
+    <div id="Playground"
+    data-6900="margin-top: 1000px;"
+    data-7200="margin-top: 130px;"
+    data-10000="-webkit-filter: sepia(0%);"
+    data-10300="-webkit-filter: sepia(60%); margin-top: 130px;"
+    data-10600="margin-top: 80px;"></div>
+    
+    <div id="Frame" 
+    data-10000="opacity: 0; transform: scale(1.1, 1.1);" 
+    data-10300="opacity: 1; transform: scale(1, 1); margin-top: -480px;" data-10600="margin-top: -530px;"></div>
+</div>
+
+<div id="divScreen" data-5500="opacity: 1;" data-5800="opacity: 0;">
+   <div id="SkyGreen" 
+   data-0="transform: scale(3, 3);" 
+   data-500="margin-top: -480px; transform: scale(1.5, 1.5);"
+   data-700="margin-top: -480px;"
+   data-1000="transform: scale(1, 1); margin-left: -800px; margin-top: -480px;"
+   data-1400="transform: scale(0.5, 0.5); margin-left: -740px;"
+   data-3100="transform: scale(0.5, 0.5); margin-left: -740px;"
+   data-3400="transform: scale(0.4, 0.4); margin-left: -800px;"></div>
+    <div id="divScreenBottom" data-3800="visibility: hidden;" data-3900="visibility: visible; margin-top: -1000px;" data-4400="margin-top: -500px;"></div>
+    <div id="divScreenTop" data-3300="visibility: hidden;" data-3400="visibility: visible; margin-top: -400px;" data-3900="margin-top: -280px;"></div>
+</div>
+
+<div id="Sky" data-300="top: 0%;" data-1000="top: -110%;"></div>
+<div id="SchoolBackground" data-900="visibility: visible;" data-1000="visibility: hidden;">
+    <div id="CloudB" 
+    data-0="margin-left: -534px; margin-top: -350px;"
+    data-300="margin-left: -600px; margin-top: -350px;"
+    data-1000="margin-left: -666px; margin-top: -700px;"></div>
+    
+    <div id="Mountain"
+    data-300="margin-top: -260px;"
+    data-1000="margin-top: -500px;"></div>
+    
+    <div id="CloudA"
+    data-0="margin-left: -500px; margin-top: -300px;"
+    data-300="margin-left: -520px; margin-top: -300px;"
+    data-1000="margin-left: -540px; margin-top: -750px;" ></div>
+    
+    <div id="School"
+    data-300="margin-top: -280px;"
+    data-1000="margin-top: -700px;"></div>
+    
+    <div id="Underbrush"
+    data-300="margin-top: 40px;"
+    data-1000="margin-top: -500px;"></div>
+    
+    <div id="Sidewalk"
+    data-300="margin-top: 70px;"
+    data-1000="margin-top: -600px;"></div>
+    
+    <div id="Tree"
+    data-300="margin-top: 90px;"
+    data-1000="margin-top: -700px;"></div>
+    
+    <div data-0="background-color: #FFF; width: 100%; height: 100%; top: 0%; left: 0%; position: fixed; opacity: 0.5;" data-700="opacity: 0;"></div>
+</div>
+
+<div id="divBody">
+
+
+<div id="logo" data-0="opacity: 1; top: 50%;" data-400="opacity: 0; top: 0%; transform: scale(1, 1);" data-21300="opacity: 0; top: 40%; transform: scale(0, 0);" data-21600="opacity: 1; transform: scale(0.8, 0.8);">
+    <img src="img/logo.png">
+</div>
+
+<div id="CharlesRun"
+data-600="margin-left: -1000px;"
+data-1400="margin-left: -500px; visibility: visible;"
+data-1500="visibility: hidden;"
+data-5500="visibility: visible; margin-left: -500px;"
+data-5800="margin-left: -380px;"
+data-5900="visibility: hidden;">
+</div>
+<div id="CharlesRunLeft" 
+data-5900="visibility: hidden;" 
+data-8600="margin-left: 450px; visibility: visible;" 
+data-9400="margin-left: -190px;" 
+data-9500="visibility: hidden;">
+</div>
+<div id="Charles"
+data-1400="visibility: hidden;"
+data-1500="left: 50%; margin-left: -500px; visibility: visible; background-image: !url(img/C_Right.png); background-size: contain; background-repeat: no-repeat;"
+data-1600="background-image: !url(img/C_Right2.png);"
+data-1700="background-image: !url(img/C_Right3.png);"
+data-1800="background-image: !url(img/C_Front.png);"
+data-5200="background-image: !url(img/C_Right3.png);"
+data-5300="background-image: !url(img/C_Right2.png);"
+data-5400="background-image: !url(img/C_Right.png); z-index: 1;"
+data-5500="visibility: hidden;"
+data-5800="margin-left: -380px;"
+data-5900="z-index: 1000; visibility: visible; background-image: !url(img/C_Right.png);"
+data-6000="background-image: !url(img/C_Screen1.png);"
+data-6100="background-image: !url(img/C_Screen2.png);"
+data-6200="background-image: !url(img/C_Screen3.png);"
+data-6300="background-image: !url(img/C_Screen4.png);"
+data-6400="background-image: !url(img/C_Screen5.png);"
+data-6500="background-image: !url(img/C_Screen6.png);"
+data-6600="background-image: !url(img/C_Screen7.png);"
+data-6700="margin-left: -380px; background-image: !url(img/C_Screen8.png);"
+data-6800="margin-left: -280px; background-image: !url(img/C_Screen9.png);"
+data-6900="margin-left: -175px; background-image: !url(img/C_Screen10.png);"
+data-7000="margin-left: -70px; background-image: !url(img/C_Screen9.png);"
+data-7100="margin-left: 35px; background-image: !url(img/C_Screen8.png);"
+data-7200="margin-left: 140px; background-image: !url(img/C_Screen9.png);"
+data-7300="margin-left: 245px; background-image: !url(img/C_Screen10.png);" data-7400="margin-left: 350px; background-image: !url(img/C_Screen9.png);"
+data-7500="margin-left: 450px; background-image: !url(img/C_Screen6.png);"
+data-7700="background-image: !url(img/C_Screen4.png);"
+data-7800="background-image: !url(img/C_Screen2.png);"
+data-7900="background-image: !url(img/C_Right.png);"
+data-8000="background-image: !url(img/C_Right2.png);"
+data-8100="background-image: !url(img/C_Right3.png);"
+data-8200="background-image: !url(img/C_Front.png);"
+data-8300="background-image: !url(img/C_Left3.png);"
+data-8400="background-image: !url(img/C_Left2.png);"
+data-8500="background-image: !url(img/C_Left.png);"
+data-8600="visibility: hidden; margin-left: 450px;"
+data-9500="visibility: visible; margin-left: -190px; background-image: !url(img/C_Left.png);"
+data-9600="background-image: !url(img/C_Left2.png);"
+data-9700="background-image: !url(img/C_Left3.png);"
+data-9800="background-image: !url(img/C_Front.png);"
+data-10300="margin-top: -150px;"
+data-10600="margin-top: -200px;"
+data-11400="-webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px);"
+data-11700="-webkit-filter: sepia(60%) brightness(0.70) blur(0px); filter: sepia(60%) brightness(0.70 blur(0px));"
+data-12200="-webkit-filter: sepia(60%) brightness(0.70) blur(0px); filter: sepia(60%) brightness(0.70) blur(0px);"
+data-12500="-webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px);"
+data-12900="transform:scale(1, 1); margin-top: -200px; margin-left: -190px;"
+data-14000="transform:scale(1.5, 1.5); margin-left: -120px;"
+data-14100="background-image: !url(img/C_Hand1.png);"
+data-14200="background-image: !url(img/C_Hand2.png);"
+data-14300="background-image: !url(img/C_Hand3.png);"
+data-14400="background-image: !url(img/C_Hand4.png);"
+data-15800="opacity: 1; -webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px);"
+data-16300="opacity: 0; -webkit-filter: sepia(0%) brightness(1) blur(20px); filter: sepia(0%) brightness(1) blur(20px);">
+</div>
+<p id="txtIdea" 
+data-1700="opacity: 0; margin-top: -75px;" 
+data-2000="opacity: 1; margin-top: -105px;" 
+data-2800="opacity: 1; margin-top: -105px;" 
+data-3000="opacity: 0; margin-top: -135px;">校園霸凌事件一直是校園中備受關注的議題，也引起社會各界重視，紛紛提出反霸凌的作為，以減少校園霸凌的現象。不過防制校園霸凌行，為的根本作法，還是來自於學生本身的認知、態度與行為。每一位同學都應該了解到彼此尊重和彼此關懷的重要性，並且力行實踐，去幫助需要協助的同學，進而形成一種氣氛和文化，校園內就不容易產生霸凌的行為。
+</p>
+<div id="GarveyRun"
+data-3100="margin-left: 1000px;" 
+data-3900="margin-left: 320px; visibility: visible;" 
+data-4000="visibility: hidden;" 
+data-5500="visibility: visible; margin-left: 320px;" 
+data-5800="margin-left: 200px; left: 50%;" 
+data-5900="visibility: hidden;" 
+data-8600="margin-left: 1030px; visibility: visible;" 
+data-9400="margin-left: 0px;" 
+data-9500="visibility: hidden;">
+</div>
+<div id="Garvey" 
+data-1500="left: 50%; margin-left: 320px;" 
+data-3900="visibility: hidden;" 
+data-4000="visibility: visible; background-image: !url(img/G_Left.png); background-size: contain; background-repeat: no-repeat;" 
+data-4100="background-image: !url(img/G_Left2.png);" 
+data-4200="background-image: !url(img/G_Left3.png);" 
+data-4300="background-image: !url(img/G_Front.png);" 
+data-5200="background-image: !url(img/G_Left3.png);" 
+data-5300="background-image: !url(img/G_Left2.png);" 
+data-5400="background-image: !url(img/G_Left.png); z-index: 1;" 
+data-5500="visibility: hidden;" 
+data-5800="margin-left: 200px;" 
+data-5900="z-index: 1000; visibility: visible; background-image: !url(img/G_Left.png);" 
+data-6000="background-image: !url(img/G_Screen1.png);" 
+data-6100="background-image: !url(img/G_Screen2.png);" 
+data-6200="background-image: !url(img/G_Screen3.png);" 
+data-6300="background-image: !url(img/G_Screen4.png);" 
+data-6400="background-image: !url(img/G_Screen5.png);" 
+data-6500="background-image: !url(img/G_Screen6.png);" 
+data-6600="background-image: !url(img/G_Screen7.png);" 
+data-6700="margin-left: 200px; background-image: !url(img/G_Screen8.png);"
+data-6800="margin-left: 300px; background-image: !url(img/G_Screen9.png);"
+data-6900="margin-left: 405px; background-image: !url(img/G_Screen10.png);"
+data-7000="margin-left: 510px; background-image: !url(img/G_Screen9.png);"
+data-7100="margin-left: 615px; background-image: !url(img/G_Screen8.png);"
+data-7200="margin-left: 720px; background-image: !url(img/G_Screen9.png);"
+data-7300="margin-left: 835px; background-image: !url(img/G_Screen10.png);" data-7400="margin-left: 930px; background-image: !url(img/G_Screen9.png);"
+data-7500="margin-left: 1030px; background-image: !url(img/G_Screen6.png);"
+data-7700="background-image: !url(img/G_Screen4.png);"
+data-7800="background-image: !url(img/G_Screen2.png);"
+data-7900="background-image: !url(img/G_Right.png);"
+data-8000="background-image: !url(img/G_Right2.png);"
+data-8100="background-image: !url(img/G_Right3.png);"
+data-8200="background-image: !url(img/G_Front.png);"
+data-8300="background-image: !url(img/G_Left3.png);"
+data-8400="background-image: !url(img/G_Left2.png);"
+data-8500="background-image: !url(img/G_Left.png);"
+data-8600="visibility: hidden; margin-left: 1030px;" 
+data-9500="visibility: visible; margin-left: 0px; background-image: !url(img/G_Left.png);" 
+data-9600="background-image: !url(img/G_Left2.png);" 
+data-9700="background-image: !url(img/G_Left3.png);" 
+data-9800="background-image: !url(img/G_Front.png);"
+data-10300="margin-top: -150px;" 
+data-10600="-webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px); margin-top: -200px;" 
+data-10900="-webkit-filter: sepia(60%) brightness(0.70) blur(0px); filter: sepia(60%) brightness(0.70) blur(0px);" 
+data-11400="-webkit-filter: sepia(60%) brightness(0.70) blur(0px); filter: sepia(60%) brightness(0.70) blur(0px);" 
+data-11700="-webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px);" 
+data-12900="transform:scale(1, 1); margin-top: -200px; margin-left: 0px;" 
+data-14000="transform:scale(1.5, 1.5); margin-left: 70px;" 
+data-14100="background-image: !url(img/G_Hand1.png);" 
+data-14200="background-image: !url(img/G_Hand2.png);" 
+data-14300="background-image: !url(img/G_Hand3.png);" 
+data-14400="background-image: !url(img/G_Hand4.png);" 
+data-15800="opacity: 1; -webkit-filter: sepia(0%) brightness(1) blur(0px); filter: sepia(0%) brightness(1) blur(0px);" 
+data-16300="opacity: 0; -webkit-filter: sepia(0%) brightness(1) blur(20px); filter: sepia(0%) brightness(1) blur(20px);">
+</div>
+
+
+<h1 id="txtChaTitle" 
+data-10200="visibility: hidden;" 
+data-10300="visibility: visible; margin-top: 230px; opacity: 0;" 
+data-10600="margin-top: 180px; opacity: 1;" 
+data-12600="opacity: 1;" 
+data-12900="opacity: 0;">Characters</h1>
+
+<div id="CharlesNote" 
+data-9900="visibility: hidden;" 
+data-10600="visibility: visible; margin-left: -1200px; margin-top: 100px; transform:skewX(-20deg) skewY(5deg) scale(2.0, 1.7); "
+data-10900="margin-left: -500px; margin-top: -100px; transform:skewX(0deg) skewY(0deg) scale(1, 1);"
+data-11400="margin-left: -500px; margin-top: -100px; transform:skewX(0deg) skewY(0deg) scale(1, 1);"
+data-11700="margin-left: -800px; margin-top: 600px; transform:skewX(-10deg) skewY(5deg) scale(1.3, 0.9);" data-11800="visibilty: hidden;"></div>
+
+<div id="GarveyNote" 
+data-11300="visibility: hidden;"
+data-11400="visibility: visible; margin-left: 400px; margin-top: 600px; transform:skewX(20deg) skewY(-5deg) scale(1.8, 1.5);"
+data-11700="margin-left: 130px; margin-top: -200px; transform:skewX(0deg) skewY(0deg) scale(1, 1);" 
+data-12200="margin-left: 130px; margin-top: -200px; transform:skewX(0deg) skewY(0deg) scale(1, 1);" 
+data-12500="margin-left: 800px; margin-top: 200px; transform:skewX(15deg) skewY(-5deg) scale(2.3, 2.0);"
+data-12600="visibility: hidden;"></div>
+    
+
+<div id="divShadow" data-12900="opacity: 0;" data-13600="opacity: 1;" data-16800="opacity: 1;" data-17200="opacity: 0;"></div>
+
+<p id="txtSlogan" 
+data-14300="opacity: 0;" 
+data-15000="opacity: 1;" 
+data-16200="top: 80%" 
+data-16500="opacity: 1; top: 40%;" 
+data-16800="opacity: 1;" 
+data-17200="opacity: 0;"><span class="element"></span>
+</p>
+
+
+<div id="txtMember" 
+data-17200="opacity: 0;" 
+data-17700="opacity: 1;" 
+data-18200="opacity: 1;" 
+data-18600="opacity: 0;">Production Team</div>
+
+<div id="AllMember" data-17200="opacity: 0;" data-17700="opacity: 1; background-image: !url(img/All1.png);" data-20600="background-image: !url(img/All2.png);" data-20700="background-image: !url(img/All3.png);" data-20800="background-image: !url(img/All4.png);" data-20900="background-image: !url(img/All5.png);" data-21000="background-image: !url(img/All6.png);" data-21300="top: 50%; transform: scale(1, 1);"  data-21600="top: 65%; transform: scale(0.6, 0.6);"></div>
+<p id="txtMember1" data-17200="opacity: 0;" data-17700="opacity: 1;" data-18200="opacity: 1;" data-18600="opacity: 0;">Tsung-Ju Ku</p>
+<p id="txtMember2" data-17200="opacity: 0;" data-17700="opacity: 1;" data-18200="opacity: 1;" data-18600="opacity: 0;">Sheng-Chih Chu</p>
+<p id="txtMember3" data-17200="opacity: 0;" data-17700="opacity: 1;" data-18200="opacity: 1;" data-18600="opacity: 0;">Jia-Xin Pan</p>
+<p id="txtMember4" data-17200="opacity: 0;" data-17700="opacity: 1;" data-18200="opacity: 1;" data-18600="opacity: 0;">Liang-Hui Wen</p>
+<p id="txtMember5" data-17200="opacity: 0;" data-17700="opacity: 1;" data-18200="opacity: 1;" data-18600="opacity: 0;">Chia-Chen Yeh</p>
+
+
+<div id="txtLink" 
+data-18600="opacity: 0;" 
+data-18900="opacity: 1;" 
+data-20000="opacity: 1;" 
+data-20300="opacity: 0;">Links</div>
+<div id="divLink1" data-18700="display: block; opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19000="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19500="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19800="opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19900="display: none;"><a target="_blank" href="https://www.stopbullying.gov/" title="stopbullying.gov"><img src='img/Link_1.png' alt="stopbullying.gov" border="0"></a></div>
+<div id="divLink2" data-18800="display: block; opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19100="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19600="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19900="opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-20000="display: none;"><a target="_blank" href="http://www.stompoutbullying.org/" title="stompoutbullying"><img src='img/Link_2.png' alt="stompoutbullying" border="0"></a></div>
+<div id="divLink3" data-18900="display: block; opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19200="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19700="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-20000="opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-20100="display: none;"><a target="_blank" href="http://www.antibullyingpro.com/" title="antibullyingpro"><img src='img/Link_3.png' alt="antibullyingpro" border="0"></a></div>
+<div id="divLink4" data-19000="display: block; opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19300="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19800="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-20100="opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-20200="display: none;"><a target="_blank" href="https://www.anti-bullyingalliance.org.uk/" title="anti-bullyingalliance"><img src='img/Link_4.png' alt="anti-bullyingalliance" border="0"></a></div>
+<div id="divLink5" data-19100="display: block; opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-19400="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-19900="opacity: 1; margin-top: -190px; transform: scale(1, 1);" data-20200="opacity: 0; margin-top: -130px; transform: scale(0, 0);" data-20300="display: none;"><a target="_blank" href="https://csrc.edu.tw/bully/" title="教育部防治反霸凌專區"><img src='img/Link_5.png' alt="教育部防治反霸凌專區" border="0"></a></div>
+
+
+<div id="txtVideo" 
+data-4400="visibility: hidden;" 
+data-4500="visibility: visible; opacity: 0;" 
+data-4900="opacity: 1; margin-top: -200px;" 
+data-6000="transform: scale(1, 1); opacity: 1;" 
+data-6600="transform: scale(0, 0); opacity: 0;">Play the Animated Video</div>
+<div id="video" 
+   data-4400="display: none; z-index: 0;"
+   data-4500="display: block; opacity: 0; z-index: 10000;" 
+   data-4900="opacity: 1;"
+   data-5500="z-index: 0;"
+   data-6400="top: 54%;" 
+   data-6600="top: 50%;" 
+   data-6700="margin-left: -280px;" 
+   data-7500="margin-left: 550px; opacity: 1; top: 50%;" data-7800="opacity: 0; top: 55%; display: block;"
+   data-7900="display: none;">
+    
+    <iframe width="90%" height="90%" src="https://www.youtube.com/embed/1fffUPZ9Zz0?ecver=1" frameborder="0" allowfullscreen></iframe>    
+</div>
+
+</div>
+
+<div id="divLoading">
+   <div class="cssload-box-loading">
+</div>
+    <div id="txtLoading">0 %</div>
+</div>
+
+<script type="text/javascript" src="src/skrollr.stylesheets.js"></script>
+<script type="text/javascript" src="src/skrollr.js"></script>
+<script type="text/javascript">
+    var skrollr_obj = skrollr.init();
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="src/typed.js"></script>
+<script type="text/javascript" src="src/jquery.preload.min.js"></script>
+<script type="text/javascript" src="src/load.js">
+    </script>
+    
+</body>
+</html>
+    right: 0%;
+    z-index: 1000000;
+    display: block;
+}
+#txtLoading {
+    color: #1a3668;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: -30px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+
+#logo {
+    position: fixed;
+    width: 824px;
+    height: 201px;
+    margin-left: -412px;
+    margin-top: -100px;
+    left: 50%;
+    top: 50%;
+}
+#logo img {
+    width: 70%;
+    height: 70%;
+}
+
+#CharlesRun{
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -150px;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    background: url(img/C_Run1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+#CharlesRunLeft{
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -150px;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    background: url(img/C_Runleft1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#CharlesRun img{
+    width: 100%;
+    height: 100%;
+}
+
+#Charles{
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -150px;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    background-image: url(img/C_Front.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    visibility: hidden;
+}
+#GarveyRun{
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -150px;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    background: url(img/G_Run1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+#GarveyRun img{
+    width: 100%;
+    height: 100%;
+}
+#Garvey{
+    background-image: url(img/G_Front.png);
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -150px;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    visibility: hidden;
+}
+
+#video{
+    opacity: 0;
+    position: fixed;
+    margin-left: -280px;
+    margin-top: -157px;
+    width: 560px;
+    height: 315px;
+    left: 50%;
+    top: 44%;
+}
+
+#txtVideo {
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 40px;
+    margin-left: -500px;
+    margin-top: -200px;
+    width: 1000px;
+    height: 300px;
+    
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow:
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551;
+}
+
+#txtIdea{
+    font-family: 'Kalam', cursive;
+    color: white;
+    text-align: left;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    
+    margin-left: -240px;
+    margin-top: 0px;
+    width: 600px;
+    height: 700px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#txtChaTitle{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    margin-left: -500px;
+    margin-top: -150px;
+    width: 1000px;
+    height: 300px;
+    
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow:
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551;
+}
+#txtLink{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    margin-left: -500px;
+    margin-top: 150px;
+    width: 1000px;
+    height: 300px;
+    
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow:
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551;
+}
+
+#divChaC{
+    position: fixed;
+    margin-left: -9%;
+    margin-top: -18%;
+    width: 18%;
+    height: 36%;
+    left: 23%;
+    top: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.1);
+}
+#txtCharles{
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    left: 34.5%;
+    top: 70%;
+    width: 10%;
+    font-size: 1.7em;
+    line-height: 2em;
+    text-align: center;
+}
+#txtDetailCharles{
+    position: fixed;
+    left: 20%;
+    top: 60%;
+    width: 13%;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+#txtGarvey{
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    left: 52.5%;
+    top: 70%;
+    width: 10%;
+    font-size: 1.7em;
+    line-height: 2em;
+    text-align: center;
+}
+#txtDetailGarvey{
+    position: fixed;
+    left: 62%;
+    top: 50%;
+    width: 13%;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+#divShadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    opacity: 1;
+    
+    background: -webkit-radial-gradient(circle,white, #aaa);
+    background: -o-radial-gradient(circle,white, #aaa);
+    background: -moz-radial-gradient(circle,white,#aaa);
+    background: radial-gradient(circle,white,#aaa);
+}
+
+#txtSlogan{
+    color: #0d3551;
+    font-family: 'Kalam', cursive;
+    opacity: 0;
+    position: fixed;
+    margin-left: -800px;
+    left: 50%;
+    top: 80%;
+    width: 1600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#CharlesNote {
+	position: fixed;
+    margin-left: -175px;
+    margin-top: -125px;
+    width: 350px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    background: url(img/C_Note.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-filter: drop-shadow(1px 4px 3px gray);
+    filter: drop-shadow(1px 4px 3px gray);
+}
+#GarveyNote {
+	position: fixed;
+    margin-left: -175px;
+    margin-top: -125px;
+    width: 350px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    background: url(img/G_Note.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    -webkit-filter: drop-shadow(1px 4px 3px gray);
+    filter: drop-shadow(1px 4px 3px gray);
+}
+
+#AllMember {
+    background-image: url(img/All1.png);
+    position: fixed;
+    margin-left: -320px;
+    margin-top: -70px;
+    width: 660;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+
+#txtMember {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    margin-left: -500px;
+    margin-top: -180px;
+    width: 1000px;
+    height: 300px;
+    
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    text-shadow:
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551,
+    0 0 1.5px #0d3551, 0 0 1.5px #0d3551;
+}
+#txtMember1 {
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    margin-left: -405px;
+    margin-top: 130px;
+    width: 300px;
+    height: 100px;
+    
+    color: #fff;
+    text-shadow:
+    0 0 1px #0d3551, 0 0 1px #0d3551,
+    0 0 1px #0d3551, 0 0 1px #0d3551,
+    0 0 1px #0d3551, 0 0 1px #0d3551;
+}
+#txtMember2 {
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    margin-left: -275px;
+    margin-top: -90px;
+    width: 300px;
+    height: 100px;
+    
+    color: #fff;
+    text-shadow:
+    0 0 1px #0d3551, 0 0 1px #0d3551,
+    0 0 1px #0d3551, 0 0 1px #0d3551,
+    0 0 1px #0d3551, 0 0 1px #0d3551;
+}
+#txtMember3 {
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    margin-left: -150px;
+    margin-top: 130px;
+    width: 300px;
+    height: 100px;
+    
+    color: #fff;
+    text-shadow:
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a;
+}
+#txtMember4 {
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    margin-left: -25px;
+    margin-top: -90px;
+    width: 300px;
+    height: 100px;
+    
+    color: #fff;
+    text-shadow:
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a;
+}
+#txtMember5 {
+    font-family: 'Kalam', cursive;
+    position: fixed;
+    
+    left: 50%;
+    top: 50%;
+    font-size: 16px;
+    margin-left: 105px;
+    margin-top: 130px;
+    width: 300px;
+    height: 100px;
+    
+    color: #fff;
+    text-shadow:
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a,
+    0 0 1px #c5494a, 0 0 1px #c5494a;
+}
+
+#divLink1{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -310px;
+    margin-top: -190px;
+    width: 100px;
+    height: 126px;
+    z-index: 10000000;
+}
+#divLink2{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -190px;
+    width: 100px;
+    height: 126px;
+    z-index: 10000000;
+}
+#divLink3{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -190px;
+    width: 100px;
+    height: 126px;
+    z-index: 10000000;
+}
+#divLink4{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: 75px;
+    margin-top: -190px;
+    width: 100px;
+    height: 126px;
+    z-index: 10000000;
+}
+#divLink5{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: 205px;
+    margin-top: -190px;
+    width: 100px;
+    height: 126px;
+    z-index: 10000000;
+}
+
+
+/* 學校背景 */
+#Sky{
+    position: fixed;
+    background-color: #9ACAED;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+#SchoolBackground{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 120%;
+    height: 120%;
+}
+#CloudB {
+	background-image: url(img/cloud-b.png);
+    position: fixed;
+    margin-left: -534px;
+    margin-top: -111px;
+    width: 1068px;
+    height: 223px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Mountain {
+	background-image: url(img/mountain.png);
+    position: fixed;
+    
+    margin-left: -598px;
+    margin-top: -121px;
+    width: 1196px;
+    height: 243px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#CloudA {
+	background-image: url(img/cloud-a.png);
+    position: fixed;
+    margin-left: -592px;
+    margin-top: -118px;
+    width: 1185px;
+    height: 236px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#School {
+	background-image: url(img/school.png);
+    position: fixed;
+    
+    margin-left: -607px;
+    margin-top: -223px;
+    width: 1214px;
+    height: 446px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transform: scale(1.1, 1.1);
+}
+#Underbrush {
+	background-image: url(img/underbrush.png);
+    position: fixed;
+    margin-left: -630px;
+    margin-top: -55px;
+    width: 1260px;
+    height: 110px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Sidewalk {
+	background-image: url(img/sidewalk.png);
+    position: fixed;
+    
+    margin-left: -596px;
+    margin-top: -81px;
+    width: 1192px;
+    height: 162px;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1, 1.1);
+}
+#Tree {
+	background-image: url(img/tree.png);
+    position: fixed;
+    
+    margin-left: -700px;
+    margin-top: -210px;
+    width: 1302px;
+    height: 420px;
+    left: 50%;
+    top: 50%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1, 1.1);
+}
+
+/* 教室背景 */
+#SkyGreen{
+    background-image: url(img/Blackboard.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    margin-left: -800px;
+    margin-top: -500px;
+    position: fixed;
+    width: 1600px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+}
+#divScreen {
+    margin-left: -800px;
+    margin-top: -350px;
+    margin-left: -500px;
+    position: fixed;
+    width: 1000px
+    height: 700px;
+    top: 50%;
+    left: 50%;
+}
+#divScreenTop{
+    background-image: url(img/ScreenTop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -500.5px;
+    margin-top: -30px;
+    position: fixed;
+    width: 1001px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    
+    transform: scale(0.55, 0.55);
+}
+#divScreenBottom{
+    background-image: url(img/ScreenBottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -484.5px;
+    margin-top: -500px;
+    position: fixed;
+    width: 969px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    
+    transform: scale(0.55, 0.55);
+}
+
+/* 學校背景 */
+#PlaygroundSky{
+    position: fixed;
+    background-color: #9ACAED;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+#PlaygroundBackground{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 120%;
+    height: 120%;
+}
+#Cloud{
+    background-image: url(img/Cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    margin-left: -666px;
+    margin-top: -300px;
+    position: fixed;
+    width: 1232px;
+    height: 152px;
+    top: 50%;
+    left: 50%;
+}
+#Enclosure{
+    background-image: url(img/Enclosure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -603.5px;
+    margin-top: -52px;
+    position: fixed;
+    width: 1207px;
+    height: 104px;
+    top: 32%;
+    left: 50%;
+    transform: scale(1.1, 1.1);
+}
+#PlaygroundTree{
+    background-image: url(img/PlaygroundTree.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -628px;
+    margin-top: -353px;
+    position: fixed;
+    width: 1256px;
+    height: 706px;
+    top: 50%;
+    left: 50%;
+    transform: scale(1.1,1.1);
+}
+#Stage{
+    background-image: url(img/Stage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-top: -130px;
+    margin-left: -500px;
+    position: fixed;
+    width: 685px;
+    height: 260px;
+    top: 50%;
+    left: 50%;
+}
+#Playground{
+    background-image: url(img/Playground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: -604px;
+    margin-top: -225px;
+    position: fixed;
+    width: 1208px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: scale(1.1, 1.1);
+}
+#Frame{
+    background-image: url(img/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-top: -800px;
+    margin-left: -800px;
+    position: fixed;
+    width: 1600px;
+    height: 1047px;
+    top: 50%;
+    left: 50%;
+}
+
+
+/* 打字機 */
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
+
+/* 滾輪 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 0px none transparent;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #aaaaaa;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none transparent;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+/* LOAD */
+.cssload-box-loading {
+	width: 49px;
+	height: 49px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.cssload-box-loading:before {
+	content: '';
+	width: 49px;
+	height: 5px;
+	background: rgb(0,0,0);
+	opacity: 0.1;
+	position: absolute;
+	top: 58px;
+	left: 0;
+	border-radius: 50%;
+	animation: shadow 0.58s linear infinite;
+		-o-animation: shadow 0.58s linear infinite;
+		-ms-animation: shadow 0.58s linear infinite;
+		-webkit-animation: shadow 0.58s linear infinite;
+		-moz-animation: shadow 0.58s linear infinite;
+}
+.cssload-box-loading:after {
+	content: '';
+	width: 49px;
+	height: 49px;
+	background: rgb(13,53,81);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 3px;
+	animation: cssload-animate 0.58s linear infinite;
+		-o-animation: cssload-animate 0.58s linear infinite;
+		-ms-animation: cssload-animate 0.58s linear infinite;
+		-webkit-animation: cssload-animate 0.58s linear infinite;
+		-moz-animation: cssload-animate 0.58s linear infinite;
+}
+
+
+
+@keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-o-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-o-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-o-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-o-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-o-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-ms-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-ms-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-ms-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-ms-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-ms-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-webkit-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-webkit-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-webkit-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-webkit-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-webkit-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@-moz-keyframes cssload-animate {
+	17% {
+		border-bottom-right-radius: 3px;
+	}
+	25% {
+		-moz-transform: translateY(9px) rotate(22.5deg);
+	}
+	50% {
+		-moz-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+		border-bottom-right-radius: 39px;
+	}
+	75% {
+		-moz-transform: translateY(9px) rotate(67.5deg);
+	}
+	100% {
+		-moz-transform: translateY(0) rotate(90deg);
+	}
+}
+
+@keyframes shadow {
+	0%,
+	100% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.2, 1);
+	}
+}
+
+@-o-keyframes shadow {
+	0%,
+	100% {
+		-o-transform: scale(1, 1);
+	}
+	50% {
+		-o-transform: scale(1.2, 1);
+	}
+}
+
+@-ms-keyframes shadow {
+	0%,
+	100% {
+		-ms-transform: scale(1, 1);
+	}
+	50% {
+		-ms-transform: scale(1.2, 1);
+	}
+}
+
+@-webkit-keyframes shadow {
+	0%,
+	100% {
+		-webkit-transform: scale(1, 1);
+	}
+	50% {
+		-webkit-transform: scale(1.2, 1);
+	}
+}
+
+@-moz-keyframes shadow {
+	0%,
+	100% {
+		-moz-transform: scale(1, 1);
+	}
+	50% {
+		-moz-transform: scale(1.2, 1);
+	}
+}
